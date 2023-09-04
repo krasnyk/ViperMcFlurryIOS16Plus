@@ -106,7 +106,7 @@ Module factory can be replaced with segues for most cases. Except you need to cr
 Add to podfile
 
 ```ruby
-pod "ViperMcFlurry"
+pod "ViperMcFlurryIOS16Plus"
 ```
 
 ### License

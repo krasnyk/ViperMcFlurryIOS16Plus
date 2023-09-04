@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
 
   s.name         = "ViperMcFlurryIOS16FIX"
-  s.version      = "1.5.3.1"
+  s.version      = "1.5.4"
   s.summary      = "Modern framework for implementing VIPER architecture in iOS application."
 
-  s.homepage         = "https://github.com/krasnyk/ViperMcFlurryIOS16Plus"
+  s.homepage         = "https://github.com/krasnyk/ViperMcFlurryIOS16Plus/tree/temporary-fix"
   s.license          = 'MIT'
   s.authors           = { "Andrey Zarembo-Godzyatsky" => "a.zarembo-godzyatsky@rambler-co.ru", "Valery Popov" => "v.popov@rambler-co.ru" }
   s.source           = { :git => "https://github.com/krasnyk/ViperMcFlurryIOS16Plus.git", :tag => s.version.to_s }
