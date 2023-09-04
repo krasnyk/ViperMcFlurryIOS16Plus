@@ -32,7 +32,7 @@
 		0F4284321DC0BEDA0063228A /* UIViewController+RamblerViperModuleTransitionHandlerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RamblerViperModuleTransitionHandlerProtocol.h"; path = "../../Source/UIViewController+RamblerViperModuleTransitionHandlerProtocol.h"; sourceTree = "<group>"; };
 		0F4284331DC0BEDA0063228A /* UIViewController+RamblerViperModuleTransitionHandlerProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RamblerViperModuleTransitionHandlerProtocol.m"; path = "../../Source/UIViewController+RamblerViperModuleTransitionHandlerProtocol.m"; sourceTree = "<group>"; };
 		0F42843E1DC0BEE90063228A /* ViperMcFlurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViperMcFlurry.h; path = ../Source/ViperMcFlurry.h; sourceTree = "<group>"; };
-		2B2065111D3FD8FA00246C8D /* ViperMcFlurry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ViperMcFlurry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2065111D3FD8FA00246C8D /* ViperMcFlurryIOS16FIX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ViperMcFlurryIOS16FIX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2065161D3FD8FA00246C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +58,7 @@
 		2B2065121D3FD8FA00246C8D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B2065111D3FD8FA00246C8D /* ViperMcFlurry.framework */,
+				2B2065111D3FD8FA00246C8D /* ViperMcFlurryIOS16FIX.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,9 +120,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2B2065101D3FD8FA00246C8D /* ViperMcFlurry */ = {
+		2B2065101D3FD8FA00246C8D /* ViperMcFlurryIOS16FIX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B2065191D3FD8FA00246C8D /* Build configuration list for PBXNativeTarget "ViperMcFlurry" */;
+			buildConfigurationList = 2B2065191D3FD8FA00246C8D /* Build configuration list for PBXNativeTarget "ViperMcFlurryIOS16FIX" */;
 			buildPhases = (
 				2B20650C1D3FD8FA00246C8D /* Sources */,
 				2B20650D1D3FD8FA00246C8D /* Frameworks */,
@@ -133,9 +133,9 @@
 			);
 			dependencies = (
 			);
-			name = ViperMcFlurry;
+			name = ViperMcFlurryIOS16FIX;
 			productName = ViperMcFlurry;
-			productReference = 2B2065111D3FD8FA00246C8D /* ViperMcFlurry.framework */;
+			productReference = 2B2065111D3FD8FA00246C8D /* ViperMcFlurryIOS16FIX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -157,6 +157,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 2B2065071D3FD8FA00246C8D;
@@ -164,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B2065101D3FD8FA00246C8D /* ViperMcFlurry */,
+				2B2065101D3FD8FA00246C8D /* ViperMcFlurryIOS16FIX */,
 			);
 		};
 /* End PBXProject section */
@@ -327,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B2065191D3FD8FA00246C8D /* Build configuration list for PBXNativeTarget "ViperMcFlurry" */ = {
+		2B2065191D3FD8FA00246C8D /* Build configuration list for PBXNativeTarget "ViperMcFlurryIOS16FIX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B20651A1D3FD8FA00246C8D /* Debug */,
