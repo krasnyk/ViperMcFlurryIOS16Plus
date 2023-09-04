@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ViperMcFlurry"
-  s.version      = "10.5.3"
+  s.version      = "1.5.3.1"
   s.summary      = "Modern framework for implementing VIPER architecture in iOS application."
 
   s.homepage         = "https://github.com/krasnyk/ViperMcFlurryIOS16Plus"
